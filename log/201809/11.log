@@ -1,0 +1,21 @@
+---------------------------------------------------------------
+[ 2018-09-11T17:27:10+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/banner/1
+[ info ] localhost/wxshop/public/index.php/banner/1 [运行时间：0.017860s][吞吐率：55.99req/s] [内存消耗：1,008.71kb] [文件加载：33]
+[ error ] [0]内部错误[C:\phpStudy\PHPTutorial\WWW\wxshop\application\api\controller\v1\Banner.php:19]
+[ error ] 内部错误
+---------------------------------------------------------------
+[ 2018-09-11T17:51:37+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/banner/1
+[ error ] [0]内部错误
+[ error ] 内部错误
+---------------------------------------------------------------
+[ 2018-09-11T17:51:40+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/banner/1
+[ error ] [0]内部错误
+[ error ] 内部错误
+---------------------------------------------------------------
+[ 2018-09-11T18:22:30+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/banner/1
+[ error ] [0]内部错误
+[ error ] 内部错误
+---------------------------------------------------------------
+[ 2018-09-11T18:22:46+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/banner/1
+[ error ] [0]内部错误
+[ error ] 内部错误

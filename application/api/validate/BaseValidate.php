@@ -6,6 +6,7 @@
  * Time: 22:00
  */
 namespace app\api\validate;
+use app\lib\exception\ParameterException;
 use think\Exception;
 use think\Request;
 use think\Validate;
@@ -16,10 +17,14 @@ class BaseValidate extends Validate{
             //校验参数
             $resquest=Request::instance();
             $params=$resquest->param();
+            //自定义ID验证规则
             $res=$this->check($params);
             if (!$res){
-                $error= $this->error;
-                throw new Exception($error);
+                $e = new ParameterException();
+                $e->msg = $this->error;
+                throw $e;
+//                $error= $this->error;
+//                throw new Exception($error);
             }
             else{
                 return true;

@@ -7,16 +7,25 @@
  */
 namespace app\lib\exception;
 
-class BaseException
+use think\Exception;
+
+class BaseException extends Exception
 {
     /**
      * @var code HTTP状态码
      *     msg 错误具体信息
      *      errorCode 自定义的错误码
      */
-    public $code;
-    public $msg;
-    public $errorCode;
+    public $code = 400;
+    public $msg = '参数错误';
+    public $errorCode = 10000;
 
+    public function __construct($params = [])
+    {
+        if (!is_array($params))
+        {
+            return ;
+        }
+    }
 
 }
