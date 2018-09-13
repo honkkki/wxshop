@@ -28,12 +28,14 @@ class ExceptionHandler extends Handle
         }
         else
         {
+            //返回详细错误页面给服务器端开发人员
             if (config('app_debug'))
             {
                 //返回页面 还原TP默认错误页面
                 return parent::render($e);
             }
             else {
+                //返回给客户端json格式
                 $this->code = 500;
                 $this->msg = '服务器内部错误';
                 $this->errorCode = 999;

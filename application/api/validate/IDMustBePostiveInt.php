@@ -10,7 +10,8 @@ use think\Validate;
 
 class IDMustBePostiveInt extends BaseValidate {
         protected $rule=[
-            'id' =>'require|isPositiveInt'
+            'id' =>'require|isPositiveInt',
+
         ];
 
     /**

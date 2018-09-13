@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2018-09-13T16:20:26+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.025037s][吞吐率：39.94req/s] [内存消耗：1,594.92kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001146s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005555s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-09-13T16:20:28+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.034381s][吞吐率：29.09req/s] [内存消耗：1,594.93kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010756s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004878s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-09-13T16:45:25+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.041869s][吞吐率：23.88req/s] [内存消耗：1,797.97kb] [文件加载：38]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011325s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005129s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000410s ]

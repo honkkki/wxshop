@@ -11,6 +11,7 @@ use think\Exception;
 
 class BaseException extends Exception
 {
+    //自定义异常 属于非服务器或代码异常
     /**
      * @var code HTTP状态码
      *     msg 错误具体信息
@@ -24,7 +25,19 @@ class BaseException extends Exception
     {
         if (!is_array($params))
         {
-            return ;
+            throw new Exception('参数必须是数组');
+        }
+        if (array_key_exists('code',$params))
+        {
+            $this->code = $params['code'];
+        }
+        if (array_key_exists('msg',$params))
+        {
+            $this->msg = $params['msg'];
+        }
+        if (array_key_exists('errorCode',$params))
+        {
+            $this->errorCode = $params['errorCode'];
         }
     }
 

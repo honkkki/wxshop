@@ -18,10 +18,16 @@ class BaseValidate extends Validate{
             $resquest=Request::instance();
             $params=$resquest->param();
             //自定义ID验证规则
-            $res=$this->check($params);
+            $res=$this->batch()->check($params);
             if (!$res){
-                $e = new ParameterException();
-                $e->msg = $this->error;
+                //面向对象通过构造函数初始化
+                $e = new ParameterException([
+                    'msg' => $this->error,
+//                    'code' => 400,     //可选参数
+//                    'errorCode' => 10002
+                ]);
+//                $e = new ParameterException();
+//                $e->msg = $this->error;
                 throw $e;
 //                $error= $this->error;
 //                throw new Exception($error);
