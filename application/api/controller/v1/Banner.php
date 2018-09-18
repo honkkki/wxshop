@@ -13,8 +13,9 @@ class Banner
          */
         (new IDMustBePostiveInt())->goCheck();
 
-            $banner = BannerModel::get($id);
-//            $banner=BannerModel::getBannerByID($id);
+          $banner=BannerModel::getBannerByID($id);
+          //将不需要的数据字段隐藏
+          $banner->hidden(['delete_time']);
             if (!$banner)
             {
                 throw new BannerMissException();
