@@ -280,3 +280,38 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004816s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000262s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2018-09-20T23:01:33+08:00 ] 0.0.0.0 GET /wxshop/public/api/v1/banner/1
+[ info ] localhost/wxshop/public/api/v1/banner/1 [运行时间：2.007115s][吞吐率：0.50req/s] [内存消耗：2,702.23kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.408080s ] mysql:host=127.0.0.1;dbname=wxshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.158009s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-20T23:43:03+08:00 ] 0.0.0.0 GET /wxshop/public/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/api/v1/product/recent?count=1 [运行时间：0.406024s][吞吐率：2.46req/s] [内存消耗：2,839.22kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=wxshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.021001s ]
+---------------------------------------------------------------
+[ 2018-09-20T23:43:06+08:00 ] 0.0.0.0 GET /wxshop/public/api/v1/product/recent?count=15
+[ info ] localhost/wxshop/public/api/v1/product/recent?count=15 [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：2,843.79kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=wxshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-20T23:43:13+08:00 ] 0.0.0.0 GET /wxshop/public/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/api/v1/product/recent?count=1 [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,839.22kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=wxshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-20T23:46:16+08:00 ] 0.0.0.0 GET /wxshop/public/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/api/v1/product/recent?count=1 [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：2,839.27kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=wxshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.066003s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.001000s ]

@@ -7,7 +7,6 @@
  */
 
 namespace app\api\model;
-use think\Model;
 
 class Product extends BaseModel
 {
@@ -21,6 +20,16 @@ class Product extends BaseModel
 
     public function imgs()
     {
+
+    }
+
+    //获取最新商品 $count为显示数量
+    public function getMostRecent($count)
+    {
+            $order = [
+              'create_time' =>'desc'
+            ];
+            return $this->limit($count)->order($order)->select();
 
     }
 
