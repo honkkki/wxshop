@@ -12,15 +12,18 @@ use think\Db;
 use think\Exception;
 use think\Model;
 
-class Banner extends Model
+class Banner extends BaseModel
 {
-        public function items(){
+    protected $hidden = ['delete_time','update_time'];
+        public function items()
+        {
             return $this->hasMany('BannerItem','banner_id','id');
         }
 
 
 
-        public static function getBannerByID($id){
+        public static function getBannerByID($id)
+        {
 
             $banner = self::with(['items','items.img'])->find($id);
             return $banner;

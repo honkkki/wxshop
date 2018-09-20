@@ -1,0 +1,55 @@
+---------------------------------------------------------------
+[ 2018-09-19T13:56:57+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.073251s][吞吐率：13.65req/s] [内存消耗：1,903.45kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012132s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.006455s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006845s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.001500s ]
+---------------------------------------------------------------
+[ 2018-09-19T13:57:04+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.056536s][吞吐率：17.69req/s] [内存消耗：1,903.45kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010078s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004951s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004448s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004455s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-09-19T14:31:55+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.045131s][吞吐率：22.16req/s] [内存消耗：1,903.45kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009966s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004843s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004305s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004672s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2018-09-19T14:32:13+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.045893s][吞吐率：21.79req/s] [内存消耗：1,903.45kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010289s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004965s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004519s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005114s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-09-19T19:38:55+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/banner/1
+[ info ] localhost/wxshop/public/index.php/api/v1/banner/1 [运行时间：0.049231s][吞吐率：20.31req/s] [内存消耗：1,903.06kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011627s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005172s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004710s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004779s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000294s ]
