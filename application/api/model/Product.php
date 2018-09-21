@@ -18,10 +18,6 @@ class Product extends BaseModel
         return $this->prefixImgUrl($value,$data);
     }
 
-    public function imgs()
-    {
-
-    }
 
     //获取最新商品 $count为显示数量
     public function getMostRecent($count)
@@ -31,6 +27,14 @@ class Product extends BaseModel
             ];
             return $this->limit($count)->order($order)->select();
 
+    }
+
+    public function getProductsByCateID($id)
+    {
+        $data = [
+          'category_id' => $id
+        ];
+        return $this->where($data)->select();
     }
 
 }

@@ -1,0 +1,248 @@
+---------------------------------------------------------------
+[ 2018-09-21T10:24:24+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.038684s][吞吐率：25.85req/s] [内存消耗：2,012.42kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010573s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005464s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:14+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.035258s][吞吐率：28.36req/s] [内存消耗：2,111.63kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009969s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005143s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:50+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.030282s][吞吐率：33.02req/s] [内存消耗：2,111.87kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005029s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:51+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.035421s][吞吐率：28.23req/s] [内存消耗：2,111.87kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011137s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004796s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:51+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.035184s][吞吐率：28.42req/s] [内存消耗：2,111.87kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010701s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004724s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:52+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.026396s][吞吐率：37.88req/s] [内存消耗：2,111.87kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005106s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:52+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.037603s][吞吐率：26.59req/s] [内存消耗：2,111.87kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011076s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004767s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:52+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.024784s][吞吐率：40.35req/s] [内存消耗：2,111.87kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000598s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004902s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:25:53+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.027827s][吞吐率：35.94req/s] [内存消耗：2,111.87kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004799s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:40:41+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.042995s][吞吐率：23.26req/s] [内存消耗：1,852.29kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011010s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005873s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:40:41+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.037675s][吞吐率：26.54req/s] [内存消耗：1,852.29kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011159s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005079s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:40:42+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.038156s][吞吐率：26.21req/s] [内存消耗：1,852.29kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009829s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004809s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:40:42+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.035812s][吞吐率：27.92req/s] [内存消耗：1,852.29kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010585s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004895s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:40:43+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.025590s][吞吐率：39.08req/s] [内存消耗：1,852.29kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005126s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:40:43+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/recent?count=1
+[ info ] localhost/wxshop/public/index.php/api/v1/product/recent?count=1 [运行时间：0.025298s][吞吐率：39.53req/s] [内存消耗：1,852.29kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005018s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:45:22+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/category/all
+[ info ] localhost/wxshop/public/index.php/api/v1/category/all [运行时间：0.031170s][吞吐率：32.08req/s] [内存消耗：1,744.13kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005357s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004640s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:45:24+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/category/all
+[ info ] localhost/wxshop/public/index.php/api/v1/category/all [运行时间：0.038749s][吞吐率：25.81req/s] [内存消耗：1,744.13kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011249s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005163s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004711s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:45:33+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/category/all
+[ info ] localhost/wxshop/public/index.php/api/v1/category/all [运行时间：0.039079s][吞吐率：25.59req/s] [内存消耗：1,747.48kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005168s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004489s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:47:49+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/category/all
+[ info ] localhost/wxshop/public/index.php/api/v1/category/all [运行时间：0.046274s][吞吐率：21.61req/s] [内存消耗：1,747.77kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010633s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.004754s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004553s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:47:49+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/category/all
+[ info ] localhost/wxshop/public/index.php/api/v1/category/all [运行时间：0.028323s][吞吐率：35.31req/s] [内存消耗：1,747.77kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005126s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004579s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:47:50+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/category/all
+[ info ] localhost/wxshop/public/index.php/api/v1/category/all [运行时间：0.028125s][吞吐率：35.56req/s] [内存消耗：1,747.77kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.004804s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004486s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-09-21T10:47:57+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/category/all
+[ info ] localhost/wxshop/public/index.php/api/v1/category/all [运行时间：0.041299s][吞吐率：24.21req/s] [内存消耗：1,747.77kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010775s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.004850s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004477s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:17:49+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.035027s][吞吐率：28.55req/s] [内存消耗：1,824.58kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010423s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004828s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:32+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.049296s][吞吐率：20.29req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011201s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004982s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:32+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.033382s][吞吐率：29.96req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010799s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004737s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:33+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.032586s][吞吐率：30.69req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010047s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004981s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:33+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.022850s][吞吐率：43.76req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004859s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:33+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.022570s][吞吐率：44.31req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004870s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:34+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010883s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005023s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:34+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.033917s][吞吐率：29.48req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010898s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004894s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:35+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.034147s][吞吐率：29.29req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011425s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005010s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:35+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.022746s][吞吐率：43.96req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004701s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:19:35+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/2 [运行时间：0.022640s][吞吐率：44.17req/s] [内存消耗：1,860.08kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004886s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:25:45+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate/10
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate/10 [运行时间：0.026958s][吞吐率：37.09req/s] [内存消耗：1,857.58kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004826s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `img_id` = 10 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:26:34+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate?id=3
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate?id=3 [运行时间：0.036433s][吞吐率：27.45req/s] [内存消耗：1,858.98kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010524s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004701s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:27:18+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate?id=2
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate?id=2 [运行时间：0.033653s][吞吐率：29.72req/s] [内存消耗：1,860.18kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010928s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004809s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:28:52+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate?id=3
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate?id=3 [运行时间：0.032306s][吞吐率：30.95req/s] [内存消耗：1,858.98kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004825s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-09-21T11:29:15+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate?id=3
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate?id=3 [运行时间：0.048324s][吞吐率：20.69req/s] [内存消耗：1,858.98kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011097s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005066s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2018-09-21T12:48:24+08:00 ] 0.0.0.0 GET /wxshop/public/index.php/api/v1/product/bycate?id=3
+[ info ] localhost/wxshop/public/index.php/api/v1/product/bycate?id=3 [运行时间：0.038341s][吞吐率：26.08req/s] [内存消耗：1,859.62kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011496s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005023s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.000342s ]
